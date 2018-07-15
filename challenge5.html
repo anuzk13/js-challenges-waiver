@@ -57,6 +57,7 @@
 				element.addEventListener("focus", upDate);
 				element.addEventListener("mouseleave", unDo);
 				element.addEventListener("blur", unDo);
+				element.tabIndex = i + 1;
 			}
 		}
 		window.onload = load;
@@ -82,9 +83,33 @@
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG">
 	
 		<!-- Your code goes in the img tag below.  Make sure to react to "hovering" and "tabbing": -->
-		<img class = "preview" tabindex = "1" 
+		<img class = "preview"  tabindex = "1" 
 			src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" 
 			alt = "Young Puppy">
+
+		<img class = "preview"
+			src = "img/paco1.jpg" 
+			alt = "This is paco">
+
+		<img class = "preview"
+			src = "img/paco2.jpg" 
+			alt = "Paco is a happy german shepherd">
+
+		<img class = "preview"
+			src = "img/paco3.jpg" 
+			alt = "He is very sweet">
+
+		<img class = "preview" 
+			alt = "And very hungry all the time" 
+			src = "img/paco4.jpg">
+	
+		<img class = "preview" 
+			alt = "This is felix" 
+			src = "img/felix1.jpg">
+
+		<img class = "preview"
+			src = "img/felix2.jpg" 
+			alt = "Felix is a sleepy cat">
 </body>
 </html>
 	
